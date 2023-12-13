@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Anime</title>
+    <!-- Logo -->
+    <link rel="icon" href="image/naruto.jpg">
+    <!-- Font Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- AOS Effect -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script>
+        tailwind.config = {
+            darkMode : 'class',
+            theme: {
+                extend : {
+                    fontFamily : {
+                        Poppins : ['Poppins']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-900 font-Poppins" style="height: 2000px;">
+    <div class="container">
+        <div class="nav mx-auto mt-20 rounded-xl p-5  text-center bg-blue-500"  style="width: 90%;">
+         <h1 class="font-Poppins text-white font-bold text-3xl">🧑 WeeBoo 🧑</h1>
+        </div> 
+        <div class="input mx-auto mt-10 rounded-sm bg-red-50 flex " style="width: 80%;">
+         <input type="text" placeholder="Cari Anime..." class="p-2 w-full" id="myinput">
+         <button class="bg-black text-white font-medium p-4 hover:bg-slate-950" id="mybtn">Cari</button>
+        </div>
+        <h3 class="font-medium text-center mt-10 text-white">Menemukan <strong id="strong"> 4 </strong> hasil</h3>
+     
+        <main class="sm:flex md:flex justify-around mt-10 w-full">
+            <div class="box bg-slate-800 mx-auto sm:w-1/3 mb-20 h-full w-[90%] ">
+                <ul class="w-full pl-3 pt-4 pb-8 pr-8 h-80  overflow-y-scroll overflow-hidden">
+                     <!-- <li class="flex  p-3 list-none max-w-full cursor-pointer hover:border-b-2 transition-all duration-50">
+                        <img src="image/naruto.jpg" alt="" class="w-8 mr-4">
+                        <div class="caption-list mr-3">
+                            <h3 class="font-medium text-white ">Naruto</h3>
+                            <p class="font-medium text-white text-sm">2002</p>
+                        </div>
+                    </li>
+                    <li class="flex  p-3 list-none max-w-full cursor-pointer hover:border-b-2 transition-all duration-50">
+                        <img src="image/academia.jpg" alt="" class="w-8 mr-4">
+                        <div class="caption-list mr-3">
+                            <h3 class="font-medium text-white">My Hero Acdemia</h3>
+                            <p class="font-medium text-white">2016</p>
+                        </div>
+                    </li>
+                    <li class="flex  p-3 list-none max-w-full cursor-pointer hover:border-b-2 transition-all duration-50">
+                        <img src="image/jkaizen.jpg" alt="" class="w-8 mr-4">
+                        <div class="caption-list mr-3">
+                            <h3 class="font-medium text-white">Jujutsu Kaizen</h3>
+                            <p class="font-medium text-white">2018</p>
+                        </div>
+                    </li>
+                    <li class="flex  p-3 list-none max-w-full cursor-pointer hover:border-b-2 transition-all duration-50">
+                        <img src="image/onepiece.jpg" alt="" class="w-8 mr-4">
+                        <div class="caption-list mr-3">
+                            <h3 class="font-medium text-white">One Piece</h3>
+                            <p class="font-medium text-white">1999</p>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+            <div class="box2 bg-slate-800 sm:w-1/3 mx-auto h-80 pb-9 w-[90%] overflow-hidden overflow-y-scroll">
+                <!-- <div class="title-anime flex">
+                    <img src="" alt="" class="w-28 mr-4" id="image-title">
+                    <div class="anime-detail pt-3">
+                         <p class="font-medium text-white text-sm">Pengarang : cncnncc</p>
+                        <p class="font-medium text-white text-sm">Karakter Utama : cncnncc</p>
+                        <p class="font-medium text-white text-sm">Rilis : cncnncc</p>
+                    </div>
+                </div>
+                <div class="synophsis  pl-3 pr-3 pt-3 text-white font-medium text-sm">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid consequuntur neque corporis. Provident facilis natus mollitia placeat, quis eum, beatae illum voluptate totam nam harum qui sunt commodi voluptas ex.</p>
+                </div> -->
+            </div>
+        </main>
+        <footer class="flex justify-center w-full pt-36">
+            <p class=" font-medium text-white text-sm">Created by<a href="https://instagram.com/_akbrrmdhn?igshid=NTc4MTIwNjQ2YQ==" class="font-semibold text-orange-500 text-sm hover:border-b-2 hover:transition-all duration-100" target="_blank"> Akbar Ramadhan </a> | 2023</p>
+
+        </footer>     
+    </div>
+
+
+
+   <script src="script.js"></script>
+</body>
+</html>
